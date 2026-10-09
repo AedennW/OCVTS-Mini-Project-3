@@ -1,0 +1,72 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color:rgb(233, 180, 82);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap:12px;
+    background-color: rgb(71, 68, 68);
+    border-radius: 25px;
+    padding: 0px 24px;
+    color: white;
+}
+
+header nav {
+    margin-left: auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+a:hover {
+    text-shadow: 0 0 15px rgb(255, 0, 0);
+}
+
+.hero-banner {
+    margin-top: -25px;
+    background-color: rgb(61, 56, 56);
+    border-radius: 20px;
+}
+
+.MainT {
+    display: flex;
+    color: white;
+    padding: 0px 24px;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+}
+
+.Thumbnail {
+    margin-top: -35px;
+    object-fit:cover;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 5px;
+    text-shadow: 0 0 15px orange;
+}
+
+.menu {
+    color: white;
+    padding: 0px 24px;
+}
+
+.Menu {
+    background-color: rgb(61, 56, 56);
+    border-radius: 40px;
+    text-decoration: underline;
+    color: white;
+}
