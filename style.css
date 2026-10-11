@@ -5,6 +5,7 @@ html {
 body {
     font-family: "Isometra", serif;
     background-color:rgb(233, 66, 24);
+    background: #17120f url("images/clash-of-cooks-bg.svg") repeat;
 }
 
 header {
@@ -37,6 +38,7 @@ a:hover {
     background-color: rgb(61, 56, 56);
     border-radius: 20px;
     height: 400px;
+
 }
 
 .MainT {
@@ -55,7 +57,7 @@ a:hover {
     margin-right: auto;
     border-radius: 40px;
     width:1500px;
-    box-shadow: 0 0 15px rgb(175, 59, 59);
+    box-shadow: 0 0 15px rgb(94, 32, 4);
 }
 
 .slogan {
@@ -77,15 +79,15 @@ a:hover {
     background-color: rgb(61, 56, 56);
     border-radius: 40px;
     color: white;
-    height: 1950px;
+    height: 1970px;
 }
 
 .AboutSec {
     background-color: rgb(61, 56, 56);
     border-radius: 40px;
     color: white;
-    height: 50px;
-    margin-top: 10px
+    height: 750px;
+    margin-top: 10px;
 }
 
 .Burger {
@@ -119,4 +121,44 @@ a:hover {
 .about-text {
     padding: 5px 15px;
     text-decoration: underline;
+}
+
+.about-des {
+    padding: 0px 15px;
+    font-size: 25px;
+}
+
+.photo-Sec {
+    display: flex;
+    background-color: rgb(61, 56, 56);
+    border-radius: 40px;
+    color: white;
+    height: 430px;
+    margin-top: 10px;
+    width: 610px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 15px;
+}
+
+.photo {
+    height: 400px;
+    border-radius: 100px;
+    margin-top: 10px;
+    padding: 3px;
+}
+
+.Contact-Sec {
+    background-color: rgb(61, 56, 56);
+    border-radius: 40px;
+    color: white;
+    height: 220px;
+    margin-top: 10px;
+    width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.OL {
+    padding: 0px 25px;
 }
