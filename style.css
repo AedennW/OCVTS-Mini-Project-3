@@ -98,7 +98,7 @@ a:hover {
     padding: 0px 50px;
 }
 
-.p-bb {
+.p-food {
     justify-content: right;
     margin-top: -380px;
     margin-left: 700px;
@@ -106,7 +106,7 @@ a:hover {
     text-align: center;
 }
 
-.price {
+.price-text {
     display: flex;
     justify-content: center;
     margin-left: 700px;
@@ -128,7 +128,7 @@ a:hover {
     font-size: 25px;
 }
 
-.photo-Sec {
+.photo-sec {
     display: flex;
     background-color: rgb(61, 56, 56);
     border-radius: 40px;
@@ -141,24 +141,29 @@ a:hover {
     box-shadow: 0 0 15px;
 }
 
-.photo {
+.photoshoot {
     height: 400px;
     border-radius: 100px;
     margin-top: 10px;
     padding: 3px;
 }
 
-.Contact-Sec {
+.contact-sec {
     background-color: rgb(61, 56, 56);
     border-radius: 40px;
     color: white;
-    height: 220px;
+    height: 260px;
     margin-top: 10px;
     width: 625px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.OL {
+.info {
     padding: 0px 25px;
+}
+
+.days {
+    display: flex;
+    justify-content: center;
 }
